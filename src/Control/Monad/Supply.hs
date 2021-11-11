@@ -22,6 +22,7 @@ module Control.Monad.Supply
 import           Control.Monad             (replicateM)
 import           Control.Monad.Except      (ExceptT, MonadError, throwError, catchError)
 import           Control.Monad.Fix         (MonadFix)
+import           Control.Monad.Fail        (MonadFail)
 import           Control.Monad.IO.Class    (MonadIO)
 import           Control.Monad.Reader      (ReaderT)
 import           Control.Monad.State       (StateT, get, gets, put, evalStateT, runStateT)
